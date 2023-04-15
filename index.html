@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Infos -->
+    <title>Watan</title>
+    <!-- Metas -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Links -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+  </head>
+  <body>
+    <!-- Gereral App -->
+    <div id="App" class="app">
+      <section class="starter page">
+        <div class="img-logo">
+          <img src="img/Logo.png" alt="" />
+          <div class="para">
+            <p class="p-title">وطن</p>
+          </div>
+        </div>
+        <div class="button">
+          <button id="download" class="create-account starterbtn">
+            <a
+              href="app/watan.apk"
+              style="text-decoration: none; color: #333333"
+              >تحميل التطبيق</a
+            >
+          </button>
+        </div>
+      </section>
+    </div>
+    <script>
+      document.querySelector("#download").addEventListener("click", () => {
+        alert(
+          "تنبيه : قد يظهر لك عند التثبيت عبارة التطبيق ليس أمن وهذا لأنك تقوم بالتحميل عبر موقعنا وليس عبر تطبيق (Goople play) مع العلم أن التطبيق أمن وهو فقط نسخة تجريبية لأيضاح الفكرة"
+        );
+      });
+    </script>
+  </body>
+</html>
+<!--  -->
